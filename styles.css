@@ -98,7 +98,7 @@ input[type="radio"] {
     color: #119a63;
     font-weight: bold;
     display: block;
-    margin-bottom: 3px; /* Adds spacing between "Most Popular" and "40% OFF" */
+    margin-bottom: 3px;
 }
 
 /* Dropdowns styling */
