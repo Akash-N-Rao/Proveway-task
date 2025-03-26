@@ -1,0 +1,168 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f8f8f8;
+}
+
+.bundle-container {
+    width: 350px;
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    text-align: center;
+    color: #119a63;
+}
+
+.bundle-option {
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    cursor: pointer;
+    transition: border 0.3s ease-in-out;
+}
+
+/* Change border color when radio is checked */
+.bundle-option:has(input[type="radio"]:checked) {
+    border: 2px solid #119a63;
+}
+
+/* Ensure dropdowns are visible */
+.dropdown-group {
+    margin-top: 10px;
+    display: flex;
+    gap: 10px;
+}
+
+select {
+    padding: 5px;
+    border-radius: 4px;
+}
+
+/* Disable button styles */
+.add-to-cart:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}
+
+input[type="radio"] {
+    align-self: flex-start;
+    margin-left: 10px;
+}
+
+/* Label structure */
+.bundle-label {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+    padding: 10px;
+}
+
+.left {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+.right {
+    text-align: right;
+}
+
+.pair {
+    font-weight: bold;
+}
+
+.price {
+    font-weight: bold;
+    color: black;
+}
+
+.discount {
+    font-weight: bold;
+    color: black;
+}
+
+.popular {
+    font-size: 14px;
+    color: #119a63;
+    font-weight: bold;
+    display: block;
+    margin-bottom: 3px; /* Adds spacing between "Most Popular" and "40% OFF" */
+}
+
+/* Dropdowns styling */
+.dropdowns {
+    display: none;
+    margin-top: 10px;
+    width: 100%;
+    text-align: center;
+}
+
+.dropdown-header {
+    display: flex;
+    justify-content: space-between;
+    font-weight: bold;
+    padding: 5px 10px;
+}
+
+.dropdown-pair {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 5px 10px;
+}
+
+.dropdown-pair span {
+    width: 15%;
+    text-align: center;
+}
+
+select {
+    width: 40%;
+    padding: 5px;
+}
+
+/* Footer */
+.shipping {
+    color: #119a63;
+    text-align: center;
+    font-weight: bold;
+}
+
+.total-price {
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.add-to-cart {
+    width: 100%;
+    background: #119a63;
+    color: white;
+    border: none;
+    padding: 10px;
+    font-size: 18px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+
+
+
+
+
+
+
+
+
